@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 				<body className={inter.className}>
 					<div className='flex flex-col min-h-screen container'>
 						<Header />
-						<main className='flex flex-col grow py-6'>{children}</main>
+						<main className='flex flex-col grow py-6 relative'>{children}</main>
 					</div>
 					<Toaster />
 				</body>
